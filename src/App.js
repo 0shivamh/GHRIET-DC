@@ -20,7 +20,7 @@ function App() {
       <Event/>
       <Code/>
       <About/>
-      {/* <Projects/> */}
+      <Projects/>
       <Location/> 
       <Footer/>
     </div>

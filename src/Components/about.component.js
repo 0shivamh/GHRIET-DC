@@ -1,4 +1,4 @@
-import img from '../img/open.png';
+import img from '../img/open.gif';
 import 'aos/dist/aos.css';
 const About=()=>{
 
