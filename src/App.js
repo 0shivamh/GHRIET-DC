@@ -23,7 +23,6 @@ function App() {
       {/* <Projects/> */}
       <Location/> 
       <Footer/>
-
     </div>
   );
 }
