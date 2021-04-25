@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap');
+.student-img{
+    height: 70vh;
+    width: 50vh;
+    right: 0vh;
+    background-color: transparent;
+    position: relative;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+}
+.student-img div{
+    height: 70vh;
+    width: 50vh;
+}
+#StudWord-main{
+    display: flex;
+    padding-left: 40vh;
+    position: relative;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1008%26quot%3b)' fill='none'%3e%3cpath d='M669.26 464.71 a51.07 51.07 0 1 0 102.14 0 a51.07 51.07 0 1 0 -102.14 0z' fill='rgba(170%2c 0%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M592.96 274.22 a41.35 41.35 0 1 0 82.7 0 a41.35 41.35 0 1 0 -82.7 0z' stroke='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M976.76 327.87L1010.4 327.87L1010.4 356.32L976.76 356.32z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M854.83 486.84a33.07 33.07 0 1 0-56.34-34.65z' stroke='rgba(66%2c 68%2c 90%2c 1)'%3e%3c/path%3e%3cpath d='M27.26 56.13L47.89 56.13L47.89 76.76L27.26 76.76z' fill='rgba(255%2c 241%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M521.21 250.63L533.9 250.63L533.9 263.32L521.21 263.32z' stroke='rgba(170%2c 0%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1159.02 106.59L1173.22 106.59L1173.22 141.07L1159.02 141.07z' fill='rgba(255%2c 241%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M669.34 63.83L689.98 63.83L689.98 84.47L669.34 84.47z' stroke='rgba(66%2c 68%2c 90%2c 1)'%3e%3c/path%3e%3cpath d='M826.82 112.93L876.78 112.93L876.78 148.14L826.82 148.14z' stroke='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1267.66 63.97L1322.96 63.97L1322.96 91.39L1267.66 91.39z' fill='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M233.86 341.78 a9.76 9.76 0 1 0 19.52 0 a9.76 9.76 0 1 0 -19.52 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M1331.72 496.84a47.83 47.83 0 1 0 19.8 93.58z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M64.35 321.78L97.67 321.78L97.67 355.1L64.35 355.1z' fill='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1235.94 438.68 a34.64 34.64 0 1 0 69.28 0 a34.64 34.64 0 1 0 -69.28 0z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M140.05 367.41a29.75 29.75 0 1 0-59.44-2.62z' stroke='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M201.04 155.7L237.59 155.7L237.59 192.25L201.04 192.25z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M513.95 425.01 a28.77 28.77 0 1 0 57.54 0 a28.77 28.77 0 1 0 -57.54 0z' fill='rgba(255%2c 241%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M246.89 327.95L294.06 327.95L294.06 375.12L246.89 375.12z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M994.21 10.18L1035.24 10.18L1035.24 51.21L994.21 51.21z' fill='rgba(170%2c 0%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1152.76 194.54L1177.67 194.54L1177.67 219.45L1152.76 219.45z' stroke='rgba(170%2c 0%2c 255%2c 1)'%3e%3c/path%3e%3cpath d='M1211.48 522.3 a16.49 16.49 0 1 0 32.98 0 a16.49 16.49 0 1 0 -32.98 0z' fill='rgba(66%2c 68%2c 90%2c 1)'%3e%3c/path%3e%3cpath d='M1149.01 175.06 a45.74 45.74 0 1 0 91.48 0 a45.74 45.74 0 1 0 -91.48 0z' fill='%23d3b714'%3e%3c/path%3e%3cpath d='M350.71 471.33a34.24 34.24 0 1 0 58.29 35.94z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M890.69 552.05L906.15 552.05L906.15 567.51L890.69 567.51z' fill='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M706.42 477.61a22.08 22.08 0 1 0-40.15-18.38z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1128.95 435.54 a21.37 21.37 0 1 0 42.74 0 a21.37 21.37 0 1 0 -42.74 0z' fill='rgba(255%2c 241%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1094.9 471.42L1120.9 471.42L1120.9 488.18L1094.9 488.18z' fill='rgba(13%2c 255%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M13.9 474.13a13.31 13.31 0 1 0-25.95 5.93z' stroke='%23e73635'%3e%3c/path%3e%3cpath d='M1437.85 171.19L1439.74 171.19L1439.74 182.56L1437.85 182.56z' fill='rgba(255%2c 241%2c 0%2c 1)'%3e%3c/path%3e%3cpath d='M1258.34 220.39L1263.54 220.39L1263.54 224.53L1258.34 224.53z' stroke='%23037b0b'%3e%3c/path%3e%3cpath d='M539.1 101.18L594.64 101.18L594.64 156.72L539.1 156.72z' fill='%23037b0b'%3e%3c/path%3e%3cpath d='M15.45 413.96a19.74 19.74 0 1 0 20.63-33.66z' stroke='%23d3b714'%3e%3c/path%3e%3cpath d='M918.98 396.19L969.92 396.19L969.92 447.13L918.98 447.13z' fill='%23e73635'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1008'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+.student-word{
+    width: 70vh;
+    margin-bottom: 5vh;
+    margin-top: 5vh;
+    background-color: white;
+    position: relative;
+}
+.student-word div{
+    padding-top: 3vh;
+    width: 60vh;
+    background-color: white;
+    font-size: 3rem;
+    line-height: 6vh;
+    text-align: left;
+    height: 70vh;
+    background-color: transparent;
+}
+.stud-exp{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0vh;
+    word-spacing: 0.6vh;
+    line-height: 6vh;
+    color: rgba(255, 0, 0, 0.705);
+}
+.stud-name{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-top: -1vh;
+    word-spacing: 0.4vh;
+    letter-spacing: 0.2vh;
+    text-transform: capitalize;
+    color: rgb(0, 47, 255);
+}
+.stud-designation{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    margin-top: -4vh;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    word-spacing: 0.4vh;
+    letter-spacing: 0.2vh;
+    color: rgba(89, 90, 88, 0.561);
+}

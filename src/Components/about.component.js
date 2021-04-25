@@ -1,4 +1,4 @@
-import img from '../img/open.png';
+import img from '../img/open.gif';
 import 'aos/dist/aos.css';
 const About=()=>{
 
@@ -8,7 +8,7 @@ const About=()=>{
 
         <p className="display-6">Who we are</p>
             <div className="row" >
-                <div data-aos="fade-right" className="col-sm">
+                <div data-aos="fade-right" className="col-sm aboutimg">
                     <img className="img-fluid" src={img}/>
                 </div>
                 <div data-aos="fade-left" className="col-sm about">
