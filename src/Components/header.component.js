@@ -18,7 +18,7 @@ const Header=()=> {
               <div data-aos="fade-up"
      data-aos-anchor-placement="center-bottom" className="col">
                 <div className="input-group input-group-lg">
-                  <input type="text" className="form-control cform" placeholder="Join us" aria-label="Recipient's username" aria-describedby="button-addon2"/>
+                  <input type="text" className="form-control cform" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2"/>
                   <a href="#" className="btn btn-outline-secondary cbtn" type="button" id="button-addon2"><i className="fa fa-paper-plane" aria-hidden="true"></i>
                   </a>
                 </div>
