@@ -4,9 +4,9 @@ const About=()=>{
 
     return(
         <>
-        <div className="container">
+        <div id="about" className="container">
 
-        <p className="display-6">Who we are</p>
+        <p className="display-5">Who we are</p>
             <div className="row" >
                 <div data-aos="fade-right" className="col-sm">
                     <img className="img-fluid" src={img}/>

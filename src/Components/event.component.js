@@ -1,7 +1,7 @@
 import 'aos/dist/aos.css';
 const Event=()=>{
     return(
-        <div className="event">
+        <div className="event" id="event">
             <div className="row">
                 <div className="col-sm eventcol">
                     <div id="event" className="carousel slide" data-bs-ride="carousel">

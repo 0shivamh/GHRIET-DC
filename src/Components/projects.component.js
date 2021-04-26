@@ -1,25 +1,33 @@
 import 'aos/dist/aos.css';
-
+import p1 from "../img/project/ai.png";
+import p2 from "../img/project/drone.png"
+import p3 from "../img/project/app.png"
+import Aos from 'aos';
 
 const Projects=()=>{
-
+    Aos.init({
+        disable: function() {
+          var maxWidth = 800;
+          return window.innerWidth < maxWidth;
+        }
+      });
     return(
-        <div className='project'>
-            
-            <p className="display-5">Top-Project</p>
-            <div data-aos="fade-up"
-     data-aos-anchor-placement="bottom-center" id="projects" className="carousel slide" data-bs-ride="carousel">
+        <div id="pro" className='project' >  
+        <div data-aos="fade-down"
+     data-aos-anchor-placement="center-center">
+            <p   className="display-5">Top-Project</p>
+            <div  id="projects" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
                     <div className="row g-2">
                         <div className="col  d-flex align-items-center justify-content-center">
-                            <img src="https://i.pinimg.com/originals/67/00/94/6700942183a036fb153d31ad225fce72.jpg" className="d-block" alt="..."/>
+                            <img src={p1} className=" img-fluid" alt="..."/>
                         </div>
-                        <div className="col my-auto">
+                        <div className="col-sm my-auto">
                         <div className="card pcard">
                             <div className="card-body">
-                                <h5 className="display-6">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="display-6">AI ChatBot</h5>
+                                <p className="card-text">Chatbot using reactjs based on AI technology, where you ask questions like What is Sin(1),etc.</p>
                                 <a href="#" className="btn btn-primary">View</a>
                             </div>
                         </div>
@@ -30,13 +38,13 @@ const Projects=()=>{
                     <div className="carousel-item">
                     <div className="row g-2">
                         <div className="col  d-flex align-items-center justify-content-center">
-                            <img src="https://i.pinimg.com/originals/67/00/94/6700942183a036fb153d31ad225fce72.jpg" className="d-block" alt="..."/>
+                            <img src={p2} className=" img-fluid" alt="..."/>
                         </div>
-                        <div className="col my-auto">
+                        <div className="col-sm my-auto">
                         <div className="card pcard">
                             <div className="card-body">
-                                <h5 className="display-6">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="display-6">Drone</h5>
+                                <p className="card-text">A IOT based project,Drones are small remotely controlled aerial vehicles, i.e., they are unmanned aerial vehicles. They look like helicopters or reconnaissance aircraft</p>
                                 <a href="#" className="btn btn-primary">view</a>
                             </div>
                         </div>
@@ -46,13 +54,13 @@ const Projects=()=>{
                     <div className="carousel-item">
                     <div className="row g-2">
                         <div className="col  d-flex align-items-center justify-content-center">
-                            <img src="https://fcit.usf.edu/matrix/wp-content/uploads/2016/12/Robot-24-C.jpg" className="d-block" alt="..."/>
+                            <img src={p3} className=" img-fluid" alt="..."/>
                         </div>
-                        <div className="col my-auto">
+                        <div className="col-sm my-auto">
                         <div className="card pcard">
                             <div className="card-body">
-                                <h5 className="display-6">Card title</h5>
-                                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <h5 className="display-6">Attendance Android App</h5>
+                                <p className="card-text">Best Attendance App: Surest way to track employees' attendance. Keep a check on employee Time and location with high accuracy. Enjoy 15 days Free Trial.</p>
                                 <a href="#" className="btn btn-primary">View</a>
                             </div>
                         </div>
@@ -61,18 +69,14 @@ const Projects=()=>{
                 </div>
                 
                 <button className="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
                 </button>
                 </div>
 
             
             </div>
-
+</div>
         
         </div>
         
