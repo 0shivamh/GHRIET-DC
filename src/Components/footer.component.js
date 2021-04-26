@@ -32,7 +32,7 @@ const Footer=()=>{
                 <hr></hr>
                 <p className="white ">Copyright @ 2021 |
                         <img src={icon} className="img-fluid vert-move" alt="dev-fellow" width="30" height="24" className="d-inline-block align-text-top"/>
-                        Dev-Felllow
+                        Dev-Fellow
                     </p>
                 
                 </div>
