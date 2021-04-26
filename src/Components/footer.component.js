@@ -20,7 +20,7 @@ const Footer=()=>{
 
                    <p className="col1 display-5">We love to code</p>
 
-                   <div class="footerpage">
+                   <div className="footerpage">
                        <a href="" id="link">community</a>
                        <a href="" id="link">Jobs</a>
                        <a href="" id="link">Home</a>
@@ -31,7 +31,7 @@ const Footer=()=>{
 
                 <hr></hr>
                 <p className="white ">Copyright @ 2021 |
-                        <img src={icon} className="img-fluid vert-move" alt="dev-fellow" width="30" height="24" class="d-inline-block align-text-top"/>
+                        <img src={icon} className="img-fluid vert-move" alt="dev-fellow" width="30" height="24" className="d-inline-block align-text-top"/>
                         Dev-Felllow
                     </p>
                 

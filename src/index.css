@@ -296,6 +296,12 @@ footer{
     margin-bottom: 20px;
     
   }
+  #link{
+    font-size: 16px;
+    padding: 5px;
+
+  position: relative;
+  }
   .eventcol2{
     margin-top: 0px;
     text-align: center;

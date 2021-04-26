@@ -6,8 +6,8 @@ const Nav=()=> {
             <div>
                <nav className="navbar fixed-top navbar-expand-lg navbar-light shadow-lg p-3 mb-5 bg-body rounded">
                     <div className="container-fluid">
-                    <a class="navbar-brand" href="/">
-                        <img src={icon} className="img-fluid vert-move" alt="dev-fellow" width="30" height="24" class="d-inline-block align-text-top"/>
+                    <a className="navbar-brand" href="/">
+                        <img src={icon} className="img-fluid vert-move" alt="dev-fellow" width="30" height="24" className="d-inline-block align-text-top"/>
                         Dev-Felllow
                     </a>
          

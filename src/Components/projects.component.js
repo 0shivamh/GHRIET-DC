@@ -2,20 +2,11 @@ import 'aos/dist/aos.css';
 import p1 from "../img/project/ai.png";
 import p2 from "../img/project/drone.png"
 import p3 from "../img/project/app.png"
-import Aos from 'aos';
-
 const Projects=()=>{
-    Aos.init({
-        disable: function() {
-          var maxWidth = 800;
-          return window.innerWidth < maxWidth;
-        }
-      });
     return(
         <div id="pro" className='project' >  
-        <div data-aos="fade-down"
-     data-aos-anchor-placement="center-center">
-            <p   className="display-5">Top-Project</p>
+        <div >
+            <p data-aos="fade-down" className="display-5">Top-Project</p>
             <div  id="projects" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-inner">
                     <div className="carousel-item active">
@@ -69,8 +60,10 @@ const Projects=()=>{
                 </div>
                 
                 <button className="carousel-control-prev" type="button" data-bs-target="#projects" data-bs-slide="prev">
+                <i className="fa fa-arrow-circle-left red fa-10x" aria-hidden="true"></i>
                 </button>
                 <button className="carousel-control-next" type="button" data-bs-target="#projects" data-bs-slide="next">
+                <i className="fa fa-arrow-circle-right red" aria-hidden="true"></i>
                 </button>
                 </div>
 
