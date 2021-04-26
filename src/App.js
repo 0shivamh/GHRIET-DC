@@ -19,8 +19,8 @@ function App() {
       <Terminal/>
       <Event/>
       <Code/>
-      <About/>
       <Projects/>
+      <About/>
       <Location/> 
       <Footer/>
     </div>
