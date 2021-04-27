@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Aos  from 'aos';
 import 'aos/dist/aos.css';
-import Typewriter from 'typewriter-effect/dist/core';
+import Typical from 'react-typical'
 
 
 
@@ -11,18 +11,7 @@ const Terminal=()=>  {
             Aos.init({duration:1000});
         },[]);
 
-        
-        let terminalText = document.getElementById('typewriter');
-
-        let typewriter = new Typewriter(terminalText, {
-        // loop: true,
-        delay: 75,
-        });
-
-        typewriter
-        .pauseFor(2500)
-        .typeString('Empowering the open-source community. ')
-        .start();
+    
         
 
         return(
@@ -34,7 +23,11 @@ const Terminal=()=>  {
                 <i className="fa fa-circle green" aria-hidden="true"></i>
                 </div>
                 <div className="card-body terminal-body">
-                    <p><b>GHRIET@DC :</b></p>
+                    <p><b>Dev-Fellow@DC :</b></p>
+                    <Typical
+                        steps={['Hello there', 1000, 'We empowering the open-source community.', 800]}
+                        wrapper="p"
+                    />
                     <p id="typewriter"></p> 
                 </div>
             </div>
@@ -42,6 +35,8 @@ const Terminal=()=>  {
             
             </>
         )
+
+        
     
 }
 export default Terminal;

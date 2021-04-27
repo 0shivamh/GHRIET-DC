@@ -18,7 +18,7 @@ const Footer=()=>{
                    <hr></hr>
                    
 
-                   <p className="col1 display-5">We love to code</p>
+                   <p className="footertext display-5">We love to code</p>
 
                    <div className="footerpage">
                        <a href="" id="link">community</a>

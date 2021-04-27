@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
-import icon from "../img/open.png"
+import icon from "../img/open.png";
+
 const Nav=()=> {
         return(
 
@@ -30,6 +31,9 @@ const Nav=()=> {
                             </li>
                             <li className="nav-item">
                             <a className="nav-link" href="#event">Events</a>
+                            </li>
+                            <li className="nav-item">
+                            <a className="nav-link" href="#">Contact</a>
                             </li>
                         </ul>
                         </div>

@@ -1,5 +1,7 @@
 import loc from '../img/path.png';
 import { Parallax } from 'react-parallax';
+import Typical from 'react-typical'
+import { motion } from "framer-motion"
 
 
 const Location=()=>{
@@ -13,10 +15,18 @@ const Location=()=>{
 
         <div className="under ">
             <p className="display-5 yellow">Where to find us?</p>
-            <p id='para' className="display-6 white">You still here,  click on the below button to join (Raisoni ID only).</p>
+        
+                <Typical
+                id='para' className="display-6 white"
+                        steps={['You still here,  click on the below button to join (Raisoni ID only).', 800]}
+                        wrapper="p"
+                    />
             
-            <button  className="joinbtn btn cbtn white "><i className="fa fa-mouse-pointer" aria-hidden="true"></i>
-  Join us</button>
+            
+            <motion.button 
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.9 }}  className="joinbtn btn cbtn white "><i className="fa fa-mouse-pointer" aria-hidden="true"></i>
+            Join us</motion.button>
         </div>
 
         </Parallax>
