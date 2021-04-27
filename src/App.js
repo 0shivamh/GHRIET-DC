@@ -9,7 +9,8 @@ import Footer from "./Components/footer.component";
 import Projects from "./Components/projects.component";
 import Event from "./Components/event.component";
 import Code from "./Components/code.component";
-import Team from "./Components/team.component";
+import Tnp from "./Components/tnp.component";
+import Rocket from "./Components/rocket.component";
 
 function App() {
   return (
@@ -21,9 +22,10 @@ function App() {
       <Event/>
       <Code/>
       <Projects/>
-      <Team/>
+      <Tnp/>
       <About/>
-      <Location/> 
+      <Location/>
+      <Rocket/> 
       <Footer/>
     </div>
   );
