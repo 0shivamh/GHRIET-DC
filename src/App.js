@@ -11,8 +11,17 @@ import Event from "./Components/event.component";
 import Code from "./Components/code.component";
 import Tnp from "./Components/tnp.component";
 import Rocket from "./Components/rocket.component";
-
+// import firebase from "./firebase/base"
 function App() {
+
+  // React.useEffect(()=>{
+  //   const msg=firebase.messaging();
+  //   msg.requestPermission().then(()=>{
+  //     return msg.getToken();
+  //   }).then((data)=>{
+  //     console.warn("token",data)
+  //   })
+  // })
   return (
     <div className="App">
       
