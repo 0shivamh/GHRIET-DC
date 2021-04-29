@@ -13,6 +13,8 @@ var firebaseConfig = {
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
-
+  const messaging = firebase.messaging();
+  // Add the public key generated from the console here.
+messaging.getToken({vapidKey: "AAAAFMcZhcY:APA91bG8NFMeHWe5wOF4Ln39Qr8XkWc88sHZj7i8Vt1PFflc2tg9wyu8kpsXy6awp3eOzhegoxi4e84pDpJIafighcRqUgrUqYVG31zDE2T4j1mIb7TXUzYQlNE1RNzxbxOGlGot70ZJ"});
 
   export default firebase;

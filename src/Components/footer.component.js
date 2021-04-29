@@ -9,12 +9,12 @@ const Footer=()=>{
             <div className="container">
             <div className="footersoc">
                   <p> Follow us</p> 
-                   <a aria-hidden='true' className='fa fa-envelope' href='mailto:' id='devso' target='_blank'></a>
-                    <a aria-hidden='true' className='fa fa-instagram' href='/' id='devso'></a>
-                    <a aria-hidden='true' className='fa fa-twitter' href='' id='devso' target='_blank'></a>
-                    <a aria-hidden='true' className='fa fa-linkedin' href='/' id='devso' target='_blank'></a>
-                    <a aria-hidden='true' className='fa fa-github' href='' id='devso' target='_blank'></a>
-                    <a aria-hidden='true' className='fa fa-youtube-play' href='#' id='devso' target='_blank'></a></div>
+                   <a aria-hidden='true' className='fa fa-envelope' href='/' id='devso' target='_blank' rel="noreferrer"></a>
+                    <a aria-hidden='true' className='fa fa-instagram' href='/' id='devso' target="_blank" rel="noreferrer"></a>
+                    <a aria-hidden='true' className='fa fa-twitter' href='' id='devso' target='_blank' rel="noreferrer"></a>
+                    <a aria-hidden='true' className='fa fa-linkedin' href='/' id='devso' target='_blank' rel="noreferrer"></a>
+                    <a aria-hidden='true' className='fa fa-github' href='/' id='devso' target='_blank' rel="noreferrer"></a>
+                    <a aria-hidden='true' className='fa fa-youtube-play' href='#' id='devso' target='_blank' rel="noreferrer"></a></div>
                    <hr></hr>
                    
 
