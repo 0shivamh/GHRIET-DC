@@ -12,6 +12,7 @@ import Code from "./Components/code.component";
 import Tnp from "./Components/tnp.component";
 import Rocket from "./Components/rocket.component";
 import AllProject from "./backend/AllProjects.backend";
+import Contact from "./backend/contact.backend";
 // import firebase from "./firebase/base"
 function App() {
 
@@ -35,6 +36,7 @@ function App() {
       {/* <AllProject/> */}
       <Tnp/>
       <About/>
+      <Contact/>
       <Location/>
       <Rocket/> 
       <Footer/>

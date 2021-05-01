@@ -224,6 +224,31 @@ img.vert-move {
 .footersoc{
   word-spacing: 10px;
 }
+#floatingTextarea2{
+  height: 100px;
+}
+.form-control1:focus{
+  border: 2px solid #383CC1;
+  box-shadow: none;
+
+}
+.cbtn1{
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+  background-color: #3944F7;
+  color: white;
+
+}
+.cbtn1:hover{
+  color: white;
+  top: -5px;
+  transition: all 0.15s;
+}
+.cbtn1:focus{
+  border: none;
+  box-shadow: none;
+}
 footer{
   padding-top: 50px;
   padding-bottom: 30px;
