@@ -25,7 +25,7 @@ const Footer=()=>{
                        <a href="" id="link">Jobs</a>
                        <a href="" id="link">Home</a>
                        <a href="" id="link">Help</a>
-                       <a href="" id="link">Contact</a>
+                       <a href="#contact" data-bs-toggle="modal" data-bs-target="#contact" id="link">Contact</a>
 
                     </div>
 

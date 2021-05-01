@@ -38,15 +38,12 @@ const Nav=()=> {
                             <a className="nav-link" href="#event" onClick={navlink}>Events</a>
                             </li>
                             <li className="nav-item">
-                            <a className="nav-link" href="#" onClick={navlink}>Contact</a>
+                            <a className="nav-link" href="#contact" data-bs-toggle="modal" data-bs-target="#contact" onClick={navlink}>Contact</a>
                             </li>
                         </ul>
                         </div>
                     </div>
-                    </nav>
-
-
-                    
+                    </nav>                    
             </div>
         )
 
