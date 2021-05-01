@@ -69,7 +69,8 @@ const Projects=()=>{
 
             
             </div>
-</div>
+            <a  href="/" className='display-7'>View All</a>
+        </div>
         
         </div>
         
