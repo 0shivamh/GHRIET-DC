@@ -10,6 +10,9 @@ body{
   text-align: center;
   color:#0D0D0D
 }
+.navbar-toggler{
+  border: none;
+}
 .p1{
   font-family: 'Ubuntu', sans-serif;
 }
@@ -220,7 +223,6 @@ img.vert-move {
 }
 .footersoc{
   word-spacing: 10px;
-
 }
 footer{
   padding-top: 50px;

@@ -18,7 +18,7 @@ const Nav=()=> {
                         Dev-Fellow
                     </a>
                         <button className="navbar-toggler" id="nbtn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
+                        <i className="fa fa-bars" aria-hidden="true"></i>
                         </button>
                         <div className="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul className="navbar-nav ms-auto">

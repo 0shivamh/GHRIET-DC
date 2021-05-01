@@ -11,6 +11,7 @@ import Event from "./Components/event.component";
 import Code from "./Components/code.component";
 import Tnp from "./Components/tnp.component";
 import Rocket from "./Components/rocket.component";
+import AllProject from "./backend/AllProjects.backend";
 // import firebase from "./firebase/base"
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
       <Event/>
       <Code/>
       <Projects/>
+      {/* <AllProject/> */}
       <Tnp/>
       <About/>
       <Location/>

@@ -2,6 +2,9 @@ import 'aos/dist/aos.css';
 import p1 from "../img/project/ai.png";
 import p2 from "../img/project/drone.png"
 import p3 from "../img/project/app.png"
+// import { Link, BrowserRouter as Router } from "react-router-dom";
+
+
 const Projects=()=>{
     return(
         <div id="pro" className='project' >  
@@ -69,7 +72,9 @@ const Projects=()=>{
 
             
             </div>
-            <a  href="/" className='display-7'>View All</a>
+            {/* <Router>
+            <p  className='display-7'><Link to={'AllProject'} >View All</Link></p>
+            </Router> */}
         </div>
         
         </div>

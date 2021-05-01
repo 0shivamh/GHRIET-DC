@@ -20,6 +20,7 @@
     "react-elastic-carousel": "^0.11.5",
     "react-fontawesome": "^1.7.1",
     "react-parallax": "^3.3.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-shadow-text": "^1.1.0",
     "react-typewriter-effect": "^1.0.2",
