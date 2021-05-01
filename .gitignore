@@ -1,6 +1,6 @@
 .env
 
-/src/Components/*
+# /src/Components/*
 
 # dependencies
 /node_modules
