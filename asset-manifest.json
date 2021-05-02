@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/GHRIET-DC/static/css/main.c9ec77b7.chunk.css",
-    "main.js": "/GHRIET-DC/static/js/main.3c97a814.chunk.js",
-    "main.js.map": "/GHRIET-DC/static/js/main.3c97a814.chunk.js.map",
+    "main.js": "/GHRIET-DC/static/js/main.b8e691de.chunk.js",
+    "main.js.map": "/GHRIET-DC/static/js/main.b8e691de.chunk.js.map",
     "runtime-main.js": "/GHRIET-DC/static/js/runtime-main.481af0eb.js",
     "runtime-main.js.map": "/GHRIET-DC/static/js/runtime-main.481af0eb.js.map",
     "static/css/2.b690e678.chunk.css": "/GHRIET-DC/static/css/2.b690e678.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.b690e678.chunk.css",
     "static/js/2.d9024ed6.chunk.js",
     "static/css/main.c9ec77b7.chunk.css",
-    "static/js/main.3c97a814.chunk.js"
+    "static/js/main.b8e691de.chunk.js"
   ]
 }
