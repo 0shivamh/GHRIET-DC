@@ -34,8 +34,8 @@ function App() {
       <Terminal/>
       <Event/>
       <Code/>
+      <AllProject/>
       <Projects/>
-      {/* <AllProject/> */}
       <Tnp/>
       <About/>
       <Contact/>

@@ -363,6 +363,9 @@ border-radius: 1px 120px 1px;
   box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 24px 0 rgba(0, 0, 0, 0.19);
 
 }
+.proCard{
+  margin: 20px;
+}
 .rocket{
   margin-bottom: -150px;
 }
