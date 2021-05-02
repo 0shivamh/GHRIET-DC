@@ -23,6 +23,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "react-shadow-text": "^1.1.0",
+    "react-toastify": "^7.0.4",
     "react-typewriter-effect": "^1.0.2",
     "react-typical": "^0.1.3",
     "react-typist": "^2.0.5",
