@@ -1,7 +1,7 @@
 .env
 
-# /src/Components/*
-
+/src/Components/*
+/src/firebase/base.js
 # dependencies
 /node_modules
 /.pnp
