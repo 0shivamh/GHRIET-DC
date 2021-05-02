@@ -11,7 +11,7 @@ const Community=()=>{
                     <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="">
-                <iframe className="card-body" height="500px" src="https://discord.com/widget?id=838248616597913600&theme=dark" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+                {/* <iframe className="card-body" height="500px" src="https://discord.com/widget?id=838248616597913600&theme=dark" allowtransparency="true" frameBorder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> */}
                 </div>
                 </div>
             </div>
