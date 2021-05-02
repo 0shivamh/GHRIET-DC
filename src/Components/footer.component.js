@@ -21,7 +21,7 @@ const Footer=()=>{
                    <p className="footertext display-5">We love to code</p>
 
                    <div className="footerpage">
-                       <a href="" id="link">community</a>
+                       <a href="#Community" id="link" data-bs-toggle="modal" data-bs-target="#Community">community</a>
                        <a href="" id="link">Jobs</a>
                        <a href="" id="link">Home</a>
                        <a href="" id="link">Help</a>

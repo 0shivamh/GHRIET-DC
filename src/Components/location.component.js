@@ -25,7 +25,7 @@ const Location=()=>{
             
             <motion.button 
                 whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}  className="joinbtn btn cbtn white "><i className="fa fa-mouse-pointer" aria-hidden="true"></i>
+                whileTap={{ scale: 0.9 }}  className="joinbtn btn cbtn white " data-bs-toggle="modal" data-bs-target="#JoinUs" ><i className="fa fa-mouse-pointer" aria-hidden="true"></i>
             Join us</motion.button>
         </div>
 

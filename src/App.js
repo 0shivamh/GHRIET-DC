@@ -13,6 +13,8 @@ import Tnp from "./Components/tnp.component";
 import Rocket from "./Components/rocket.component";
 import AllProject from "./backend/AllProjects.backend";
 import Contact from "./backend/contact.backend";
+import Join from "./backend/Join.backend";
+import Community from "./backend/community.backend";
 // import firebase from "./firebase/base"
 function App() {
 
@@ -37,8 +39,10 @@ function App() {
       <Tnp/>
       <About/>
       <Contact/>
+      <Join/>
       <Location/>
       <Rocket/> 
+      <Community/>
       <Footer/>
     </div>
   );

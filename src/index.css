@@ -366,6 +366,10 @@ border-radius: 1px 120px 1px;
 .rocket{
   margin-bottom: -150px;
 }
+
+.modalc{
+  width: 350px;
+}
 @media only screen and (max-width: 690px) {
   .eventcol{
     margin: 0px;
