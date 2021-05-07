@@ -48,7 +48,11 @@ const AllProject =() =>{
 
    return(
        <>
-       Hi
+       <h1>test</h1>
+
+
+        
+
         <div className="modal fade" id="AllPROJECT" tabIndex="-1" aria-labelledby="AllPROJECTLabel" aria-hidden="true">
             <div className="modal-dialog modal-xl ">
                 <div className="modal-content">
