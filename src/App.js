@@ -13,29 +13,45 @@ import Rocket from "./Components/rocket.component";
 import Contact from "./backend/contact.backend";
 import Join from "./backend/Join.backend";
 import Community from "./backend/community.backend";
-
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import AllProject from "./backend/AllProjects.backend";
 function App() {
 
 
   return (
     <div className="App">
-      
       <Nav/> 
-      <Header/>
-      <Terminal/>
-      <Event/>
-      <Code/>
-      <Projects/>
-      <Tnp/>
-          <About/>
-          <Contact/>
-          <Join/>
-          <Location/>
-          <Rocket/> 
-          <Community/>    
+      <Router>
+        <Switch>
+
+        <Route path="/" exact component={Home}/>
+        <Route path="/projects" component={AllProject} />
+        <Route path="/community" component={Community} />
+
+        </Switch>
+        
+     </Router>
+
+      {/* footer part */}
+      <Rocket/> 
       <Footer/>
     </div>
   );
 }
 
+const Home=() =>(
+ 
+  <div>
+    <Header/>
+    <Terminal/>
+    <Event/>
+    <Code/>
+    <Projects/>
+    <Tnp/>
+    <About/>
+    <Contact/>
+    <Join/>
+    <Location/>
+  </div>
+)
 export default App;
