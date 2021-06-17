@@ -15,6 +15,7 @@ import Join from "./backend/Join.backend";
 import Community from "./backend/community.backend";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AllProject from "./backend/AllProjects.backend";
+import events from "./backend/events.bakend";
 function App() {
 
 
@@ -27,7 +28,8 @@ function App() {
         <Route path="/" exact component={Home}/>
         <Route path="/projects" component={AllProject} />
         <Route path="/community" component={Community} />
-
+        <Route path="/events" component={events} />
+ 
         </Switch>
         
      </Router>
