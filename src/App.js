@@ -3,20 +3,17 @@ import Nav from "./Components/nav.component";
 import Location from "./Components/location.component";
 import Footer from "./Components/footer.component";
 import About from "./Components/about.component";
-import AllProject from "./backend/AllProjects.backend";
+import Header from './Components/header.component';
+import Terminal from "./Components/terminal.component";
+import Projects from "./Components/projects.component";
+import Event from "./Components/event.component";
+import Code from "./Components/code.component";
 import Tnp from "./Components/tnp.component";
 import Rocket from "./Components/rocket.component";
 import Contact from "./backend/contact.backend";
 import Join from "./backend/Join.backend";
 import Community from "./backend/community.backend";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
 
-import Home from "./Home";
 function App() {
 
 
@@ -24,21 +21,19 @@ function App() {
     <div className="App">
       
       <Nav/> 
-      <Router>
-          <Route exact path="/" component={Home}/>
-          <Route  path="/AllProjects" component={AllProject}/>
-          <Link to="/AllProjects"><p className="display-6">View all</p></Link>
-          <Tnp/>
+      <Header/>
+      <Terminal/>
+      <Event/>
+      <Code/>
+      <Projects/>
+      <Tnp/>
           <About/>
           <Contact/>
           <Join/>
           <Location/>
           <Rocket/> 
-          <Community/>
-      </Router>
+          <Community/>    
       <Footer/>
-
-
     </div>
   );
 }
