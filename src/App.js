@@ -16,11 +16,15 @@ import Community from "./backend/community.backend";
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AllProject from "./backend/AllProjects.backend";
 import events from "./backend/events.bakend";
+import Push from "./backend/push.bakend";
 function App() {
 
 
   return (
     <div className="App">
+
+      <Push/>
+
       <Nav/> 
       <Router>
         <Switch>

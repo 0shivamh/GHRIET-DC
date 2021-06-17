@@ -6,7 +6,7 @@
 /node_modules
 /.pnp
 .pnp.js
-
+firebase-messaging-sw.js.js
 # testing
 /coverage
 
