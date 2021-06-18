@@ -17,6 +17,9 @@ import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AllProject from "./backend/AllProjects.backend";
 import events from "./backend/events.bakend";
 import Push from "./backend/push.bakend";
+import Admin from "./backend/Admin.backend";
+import ReactPageScroller from 'react-page-scroller';
+
 function App() {
 
 
@@ -33,6 +36,7 @@ function App() {
         <Route path="/projects" component={AllProject} />
         <Route path="/community" component={Community} />
         <Route path="/events" component={events} />
+        <Route path="/adminpanel" component={Admin} />
  
         </Switch>
         
