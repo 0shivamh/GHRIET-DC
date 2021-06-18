@@ -6,9 +6,9 @@ const push=()=>{
     messaging.requestPermission().then(()=>{
         return messaging.getToken()
       }).then(token=>{
-        console.log('Token : ',token)
+        // console.log('Token : ',token)
       }).catch((err)=>{
-        console.log(err);
+        // console.log(err);
         
       })
 
