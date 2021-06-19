@@ -18,7 +18,6 @@ import AllProject from "./backend/AllProjects.backend";
 import events from "./backend/events.bakend";
 import Push from "./backend/push.bakend";
 import Admin from "./backend/Admin.backend";
-import ReactPageScroller from 'react-page-scroller';
 
 function App() {
 

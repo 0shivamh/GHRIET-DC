@@ -2,9 +2,13 @@ import Push from './push.bakend';
 import { useState } from "react";
 import { ToastContainer, toast } from 'react-toastify';
 import firebase from '../firebase/base';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+
+import "./admin.css"
+import AddBanner from './Admin/AddBanner.admin';
 const Admin=()=>{
 
-    let database = firebase.database()
+    const database = firebase.database()
 
     const [name , setName] = useState();
     const [age , setAge] = useState();
@@ -58,6 +62,22 @@ const Admin=()=>{
       
     return(
         <>
+
+
+    <Router>
+        <Switch>
+          <Route path="/adminpanel" exact component={AdminCom} />
+          <Route path="/adminpanel/addBanner" component={AddBanner} />
+
+
+
+
+ 
+        </Switch>
+        
+     </Router>
+
+
         <button onClick={pushToast} >
             Click to push
         </button>
@@ -65,22 +85,11 @@ const Admin=()=>{
             Click to View
         </button>
 
-        {/* <div className="form-floating mb-3">
-                            <input type="text" className="form-control form-control1" id="floatingInput" placeholder="Shivam" value={name} onChange={(e)=> setname(e.target.value)}  required/>
-                            <label htmlFor="floatingInput">Name</label>
-        </div>
-        <div className="form-floating mb-3">
-                            <input type="text" className="form-control form-control1" id="floatingInput" placeholder="Shivam" value={name} onChange={(e)=> setname(e.target.value)}  required/>
-                            <label htmlFor="floatingInput">Name</label>
-        </div> */}
-
-
-        {/* imp */}
         <ToastContainer />
 
 
 
-        <div className="App" style={{marginTop : 250}}>
+        <div className="App" style={{marginTop : 50}}>
         <center>
         <input placeholder="Enter your name" value={name} 
         onChange={(e) => setName(e.target.value)}/>
@@ -95,6 +104,31 @@ const Admin=()=>{
         </>
     )
 
+}
+const AdminCom=()=>{
+  return(
+    <>
+      <div className="container px-2 ">
+        <div className="row gx-3 ">
+          <div className="col dash">
+          <a href=""><div className="p-3 border1 ">Add Project</div></a>
+          </div>
+          <div className="col dash">
+            <a href=""><div className="p-3 border1">Add Team Member</div></a>
+          </div>
+        </div>
+
+        <div className="row gx-3 ">
+            <div className="col dash">
+            <a href="/adminpanel/addBanner"><div className="p-3 border1 ">Add Banner</div></a>
+            </div>
+            <div className="col dash">
+              <a href=""><div className="p-3 border1">Add Event</div></a>
+            </div>
+          </div>
+      </div>
+    </>
+  )
 }
 
 export default Admin;
