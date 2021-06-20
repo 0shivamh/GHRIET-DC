@@ -5,7 +5,7 @@ import firebase from '../firebase/base';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import "./admin.css"
-import AddBanner from './Admin/AddBanner.admin';
+import AddBanner from '../backend/AddBanner.admin';
 const Admin=()=>{
 
     const database = firebase.database()
