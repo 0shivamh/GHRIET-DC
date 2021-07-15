@@ -1,7 +1,7 @@
 .env
 
 /src/Components/*
-/src/bakend/*
+/src/backend/*
 /src/firebase/base.js
 # dependencies
 /node_modules
